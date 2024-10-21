@@ -1,6 +1,6 @@
 import { Text, View } from "react-native";
 
-function Home () {
+function Expenses () {
   return (
     <View
       style={{
@@ -9,9 +9,9 @@ function Home () {
         alignItems: 'center'
       }}
     >
-      <Text>I got in!</Text>
+      <Text>Expenses</Text>
     </View>
   )
 }
 
-export default Home
+export default Expenses
